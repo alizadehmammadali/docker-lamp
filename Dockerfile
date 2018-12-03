@@ -1,5 +1,7 @@
 FROM ubuntu:18.04
 
+MAINTAINER Alizadeh Mammadali
+
 RUN apt-get update
 # RUN apt-get -y upgrade
 
