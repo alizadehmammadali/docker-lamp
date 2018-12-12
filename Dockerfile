@@ -36,8 +36,6 @@ ENV APACHE_PID_FILE /var/run/apache2.pid
 
 EXPOSE 80
 
-# Clone the repository
-#RUN  rm -rf /var/www/html && git clone https://alizadehmammadali:Usgn8rAaVswHPGHrpFXb@bitbucket.org/mediainvest/payment_app_backend.git /var/www/html/
 
 # By default, simply start apache.
 CMD /usr/sbin/apache2ctl -D FOREGROUND
